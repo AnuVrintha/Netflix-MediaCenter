@@ -101,9 +101,9 @@ nav button{
     color:#fff;
 }
 .header-content h1{
-    font-size: 42px;
-    line-height: 1.25;
-    font-weight: 700;
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 600;
     max-width: 650px;
     
 }
@@ -120,3 +120,37 @@ nav button{
     background-color: black;
     border-color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 100px;
+    }
+
+    nav button {
+        padding: 5px 10px;
+    }
+
+    nav .apply {
+        padding: 4px 8px;
+    }
+    .header{
+        height: 100vh;
+    }
+    .header-content {
+        position: unset;
+        transform: none;
+        padding-top: 30px;
+        
+
+    }
+
+    .header-content h1 {
+        font-size: 30px;
+    }
+
+    .search {
+        font-size: 12px;
+        padding: 10px 15px;
+     } 
+    }
+    
