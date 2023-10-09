@@ -120,6 +120,12 @@ nav button{
     background-color: black;
     border-color: #fff;
 }
+.month{
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    top:87%;
+}
 
 @media only screen and (max-width: 600px) {
     .logo {
@@ -134,7 +140,7 @@ nav button{
         padding: 4px 8px;
     }
     .header{
-        height: 100vh;
+        height: 60vh;
     }
     .header-content {
         position: unset;
@@ -146,10 +152,15 @@ nav button{
     .header-content h1 {
         font-size: 30px;
     }
-
+    
     .search {
+
         font-size: 12px;
         padding: 10px 15px;
      } 
+     .month{
+       position: relative; 
+       top: 10%;
+     }
     }
     
