@@ -14,9 +14,16 @@ header{
     background-color: transparent;
 }
 button{
-    background-color: transparent;
-    width: 100px;
-    border-color: transparent;
+   
+    background-color
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 a{
     color: white;
@@ -54,15 +61,6 @@ a{
     .hamburger{
         display: block;
     }
-    .hamburger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamburger.active .bar:nth-child(1){
-       transform: translateY(8px) rotate(45deg);
-    }
-    .hamburger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-     }
      .nav-menu{
         position: fixed;
         left: -100%;
