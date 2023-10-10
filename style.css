@@ -30,7 +30,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 35px;
+    gap: 20px;
  }
  .hamburger{
     display: none;
