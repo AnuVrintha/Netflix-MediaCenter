@@ -6,6 +6,7 @@
 }
 body{
     background-color: black;
+    height: 1000px;
 }
 .header{
     width: 100%;
@@ -125,7 +126,26 @@ nav button{
     font-size: 25px;
     position: relative;
     top:87%;
+    line-height: ;
 }
+.button {
+    border: none;
+    color: white;
+    background-color: gray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .ep{
+    position: relative;
+    top: 300px;
+  }
 
 @media only screen and (max-width: 600px) {
     .logo {
@@ -143,10 +163,9 @@ nav button{
         height: 60vh;
     }
     .header-content {
-        position: unset;
-        transform: none;
-        padding-top: 30px;
-
+        position: relative;
+        top: 100px;
+        : 1.25px;
     }
 
     .header-content h1 {
@@ -154,6 +173,7 @@ nav button{
     }
     
     .search {
+        position: relative;
 
         font-size: 12px;
         padding: 10px 15px;
@@ -161,6 +181,10 @@ nav button{
      .month{
        position: relative; 
        top: 10%;
+     }
+     .ep{
+        position: relative;
+        top: 100px;
      }
     }
     
