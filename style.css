@@ -15,7 +15,7 @@ header{
 }
 button{
    
-    background-color
+    background-color:transparent;
     border: none;
     color: white;
     padding: 15px 32px;
