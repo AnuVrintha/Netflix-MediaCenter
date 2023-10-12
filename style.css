@@ -20,7 +20,12 @@ body{
 }
 
 .logo{
-    width: 115px;
+    width: 150px;
+}
+.mc{
+    color: white;
+    font-size: 17px;
+    opacity: 0.85;
 }
 header{
     background-color: transparent;
@@ -29,7 +34,7 @@ button{
     background-color:transparent;
     border: none;
     color: white;
-    padding: 4px 12px;
+    padding: 8px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -75,8 +80,8 @@ a{
 }
  .nav-menu{
     display: flex;
-    justify-content:space-evenly;
-    align-items: center;
+    justify-content:space-between;
+    align-items:center;
     gap: 2px;
     opacity: 0.8;
  }
