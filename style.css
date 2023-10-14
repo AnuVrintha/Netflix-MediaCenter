@@ -156,7 +156,14 @@ input::placeholder{
     left: 0px;
     border-radius: 2px;
     height: 350px;
-
+    width: 250px;
+    transition: 1000ms all;
+    transform-origin: center left;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    transition-duration: 0.9s ;
 }
 
 @media(max-width:768px)
