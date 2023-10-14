@@ -42,24 +42,25 @@ button{
     margin: 4px 2px;
     cursor: pointer;
     font-weight: bold;
-    ;
+   font-size: 14px;
 }
 .nav-link1{
     border: none;
-    background-color:gray;
+    background-color:rgba(175, 63, 63, 0.923);
     padding: 12px 20px;
     border-radius: 3px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
+    border: 1px solid #454444;
 }
 
 .nav-link2{
     border: none;
     background-color:red;
-    padding: 12px 20px;
+    padding: 12px 13px;
     border-radius: 3px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
 }
 a{
     color: white;
@@ -160,7 +161,7 @@ input::placeholder{
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-
+    background-color:rgba(17, 16, 16, 0.945);
     }
 .card img{
     position: relative;
@@ -175,16 +176,38 @@ input::placeholder{
     transform: scale(1.1);
     transition-duration: 0.9s ;
 }
-.more{
-    display: flex;
-    justify-content: center;
-    margin:15px 0 15px 0;
-}
 .show{
+    justify-content: center;
     border: 2px solid #333;
     padding: 15px;
     border-radius: 5px;
 }
+.container2{
+    padding: 20px;
+    padding-top: 50px;
+    width: 100%;
+}
+.t1{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.moc{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card2 img{
+    height: 350px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+
 @media(max-width:768px)
 {
     .logo{
