@@ -169,7 +169,7 @@ input::placeholder{
     border-radius: 2px;
     height: 350px;
     width: 250px;
-    transform-origin: center left;
+    
 }
 .card:hover{
     cursor: pointer;
@@ -180,9 +180,7 @@ input::placeholder{
 display: flex;
 justify-content: center;
 background-color: rgba(17, 16, 16, 0.945);
-
 }
-
 .show{
     justify-content: center;
     border: 2px solid #333;
@@ -196,21 +194,25 @@ background-color: rgba(17, 16, 16, 0.945);
 }
 .t1{
     color: white;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 15px;
+    margin-left: 60px;
 }
 .moc{
     display: flex;
-    gap: 30px;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding: 1rem 4rem 2rem;
+    min-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 30px;
+    flex-direction: row;
 }
 .card2 img{
     height: 350px;
     width: 410px;
     border-radius: 5px;
+}
+.spin img{
+    display: flex;
 }
 
 
