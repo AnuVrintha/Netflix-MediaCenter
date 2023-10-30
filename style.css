@@ -225,6 +225,9 @@ background-color: rgba(17, 16, 16, 0.945);
     border-radius: 5px;
     margin-bottom: 20px;
 }
+.red{
+    background-size: cover;
+}
 
 
 @media(max-width:768px)
