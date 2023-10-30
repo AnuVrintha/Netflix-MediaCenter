@@ -214,6 +214,17 @@ background-color: rgba(17, 16, 16, 0.945);
 .spin img{
     display: flex;
 }
+.more{
+    display: flex;
+    justify-content: center;
+}
+.nr{
+    justify-content: center;
+    border: 2px solid #333;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
 
 
 @media(max-width:768px)
