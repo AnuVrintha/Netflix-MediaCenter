@@ -384,6 +384,9 @@ background-color: rgba(17, 16, 16, 0.945);
     .footer .row{
         display: block;
     }
+    .footer .col{
+        line-height: 20px;
+    }
     }
 
 
