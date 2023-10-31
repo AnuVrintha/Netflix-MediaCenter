@@ -227,8 +227,11 @@ background-color: rgba(17, 16, 16, 0.945);
 }
 .red{
     width: 100%;
-    height: 350px;
-    background-size: cover;
+    height: 370px;
+    position: relative;
+}
+.ca{
+    color: white;
 }
 
 
