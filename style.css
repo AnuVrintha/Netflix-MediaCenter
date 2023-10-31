@@ -352,6 +352,15 @@ background-color: rgba(17, 16, 16, 0.945);
         width: 350px;
         height: 250px;
     }
+    .more{
+        margin-top: 15px;
+    }
+    section.container2{
+        overflow: auto;
+    }
+    section.container2 img{
+        width: 320px;
+    }
     .ca{
         font-size: 20px;
         top: 80px;
